@@ -137,6 +137,10 @@ class PlayState extends MusicBeatState
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
 
+	var editable:Bool = true; // DEBUG THING
+	var editbleSprite:FlxSprite;
+	var lpo:Int = 700;
+
 	public var spawnTime:Float = 2000;
 
 	public var vocals:FlxSound;
@@ -805,6 +809,16 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank4', 1300, 900, 1.5, 1.5, ['fg']));
 				foregroundSprites.add(new BGSprite('tank5', 1620, 700, 1.5, 1.5, ['fg']));
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank3', 1300, 1200, 3.5, 2.5, ['fg']));
+
+			case 'kill me':
+				var bg:BGSprite = new BGSprite('BG', -600, -200, 0.9, 0.9);
+				add(bg);
+
+				var bg2:BGSprite = new BGSprite('cringe_table_eww', -600, -200, 0.9, 0.9);
+				add(bg2);
+
+				editbleSprite = bg;
+				editable = true;
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
@@ -2832,6 +2846,63 @@ class PlayState extends MusicBeatState
 		{
 			iconP1.swapOldIcon();
 		}*/
+		if (FlxG.keys.pressed.SHIFT && editable)
+			{
+				editbleSprite.x = FlxG.mouse.screenX;
+				editbleSprite.y = FlxG.mouse.screenY;
+			}
+		else if (FlxG.keys.justPressed.C && editable)
+			{
+				trace(editbleSprite);
+				trace(lpo);
+			}
+		else if (FlxG.keys.justPressed.E && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						lpo += 100;
+					else
+						lpo += 15;
+					editbleSprite.setGraphicSize(Std.int(lpo));
+					editbleSprite.updateHitbox();
+				}
+		else if (FlxG.keys.justPressed.Q && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						lpo -= 100;
+					else
+						lpo -= 15;
+					editbleSprite.setGraphicSize(Std.int(lpo));
+					editbleSprite.updateHitbox();
+				}
+		else if (FlxG.keys.justPressed.L && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						editbleSprite.x += 50;
+					else
+						editbleSprite.x += 1;
+				}
+		else if (FlxG.keys.justPressed.K && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						editbleSprite.y += 50;
+					else
+						editbleSprite.y += 1;
+				}
+		else if (FlxG.keys.justPressed.J && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						editbleSprite.x -= 50;
+					else
+						editbleSprite.x -= 1;
+				}
+		else if (FlxG.keys.justPressed.I && editable)
+				{
+					if (FlxG.keys.pressed.ALT)
+						editbleSprite.y -= 50;
+					else
+						editbleSprite.y -= 1;
+				}
+				
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
