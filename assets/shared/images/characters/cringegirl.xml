@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cringegirl.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="AsukaDown0000" x="0" y="0" width="596" height="1027" frameX="0" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0001" x="0" y="0" width="596" height="1027" frameX="0" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0002" x="596" y="0" width="592" height="1031" frameX="-4" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0003" x="596" y="0" width="592" height="1031" frameX="-4" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0004" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0005" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0006" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0007" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0008" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0009" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0010" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0011" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0012" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaDown0013" x="1188" y="0" width="588" height="1031" frameX="-8" frameY="0" frameWidth="596" frameHeight="1031"/>
+	<SubTexture name="AsukaIdle0000" x="1776" y="0" width="602" height="1030" frameX="0" frameY="0" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0001" x="1776" y="0" width="602" height="1030" frameX="0" frameY="0" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0002" x="2378" y="0" width="598" height="1031" frameX="-4" frameY="0" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0003" x="2378" y="0" width="598" height="1031" frameX="-4" frameY="0" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0004" x="2976" y="0" width="591" height="1031" frameX="-7" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0005" x="2976" y="0" width="591" height="1031" frameX="-7" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0006" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0007" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0008" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0009" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0010" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0011" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0012" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaIdle0013" x="0" y="1031" width="585" height="1032" frameX="-9" frameY="-2" frameWidth="602" frameHeight="1034"/>
+	<SubTexture name="AsukaLeft0000" x="585" y="1031" width="606" height="1035"/>
+	<SubTexture name="AsukaLeft0001" x="585" y="1031" width="606" height="1035"/>
+	<SubTexture name="AsukaLeft0002" x="1191" y="1031" width="594" height="1035" frameX="-12" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0003" x="1191" y="1031" width="594" height="1035" frameX="-12" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0004" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0005" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0006" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0007" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0008" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0009" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0010" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0011" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0012" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaLeft0013" x="1785" y="1031" width="589" height="1035" frameX="-17" frameY="0" frameWidth="606" frameHeight="1035"/>
+	<SubTexture name="AsukaRight0000" x="2374" y="1031" width="619" height="1046"/>
+	<SubTexture name="AsukaRight0001" x="2374" y="1031" width="619" height="1046"/>
+	<SubTexture name="AsukaRight0002" x="2993" y="1031" width="614" height="1041" frameX="-5" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0003" x="2993" y="1031" width="614" height="1041" frameX="-5" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0004" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0005" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0006" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0007" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0008" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0009" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0010" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0011" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0012" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaRight0013" x="0" y="2077" width="612" height="1039" frameX="-7" frameY="0" frameWidth="619" frameHeight="1046"/>
+	<SubTexture name="AsukaUp0000" x="612" y="2077" width="588" height="1042"/>
+	<SubTexture name="AsukaUp0001" x="612" y="2077" width="588" height="1042"/>
+	<SubTexture name="AsukaUp0002" x="1200" y="2077" width="586" height="1039" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0003" x="1200" y="2077" width="586" height="1039" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0004" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0005" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0006" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0007" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0008" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0009" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0010" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0011" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0012" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+	<SubTexture name="AsukaUp0013" x="1786" y="2077" width="586" height="1038" frameX="-2" frameY="0" frameWidth="588" frameHeight="1042"/>
+</TextureAtlas>

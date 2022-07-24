@@ -813,12 +813,12 @@ class PlayState extends MusicBeatState
 			case 'kill me':
 				var bg:BGSprite = new BGSprite('BG', -600, -200, 0.9, 0.9);
 				add(bg);
-
-				var bg2:BGSprite = new BGSprite('cringe_table_eww', -600, -200, 0.9, 0.9);
+				var bg2:BGSprite = new BGSprite('cringe_table_eww', -559, 957, 0.9, 0.9);
 				add(bg2);
 
-				editbleSprite = bg;
-				editable = true;
+		
+				editbleSprite = bg2;
+				editable = false;
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
