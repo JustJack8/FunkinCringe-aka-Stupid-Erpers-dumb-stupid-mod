@@ -3,76 +3,76 @@
 		{
 			"loop": false,
 			"offsets": [
-				-52,
-				-3
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "AsukaDown",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-50,
+				-5,
 				0
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "AsukaIdle",
+			"name": "ShinjiIdle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-25,
-				0
+				175,
+				64
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "AsukaLeft",
+			"name": "ShinjiLeft",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-51,
-				3
+				108,
+				8
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "AsukaRight",
+			"name": "ShinjiRight",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-55,
-				1
+				-5,
+				17
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "AsukaUp",
+			"name": "ShinjiUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				92,
+				40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ShinjiDown",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/cringegirl",
+	"image": "characters/Shinji",
 	"position": [
+		0,
+		-310
+	],
+	"healthicon": "werido",
+	"flip_x": true,
+	"healthbar_colors": [
+		179,
+		200,
+		224
+	],
+	"camera_position": [
 		0,
 		0
 	],
-	"healthicon": "bitch",
-	"flip_x": false,
-	"healthbar_colors": [
-		231,
-		23,
-		28
-	],
-	"camera_position": [
-		-10,
-		0
-	],
-	"sing_duration": 6.1,
+	"sing_duration": 4,
 	"scale": 1
 }

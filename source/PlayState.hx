@@ -397,7 +397,7 @@ class PlayState extends MusicBeatState
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
 		if (isStoryMode)
 		{
-			detailsText = "Story Mode: " + WeekData.getCurrentWeek().weekName;
+			detailsText = "Story Mode";
 		}
 		else
 		{
@@ -811,13 +811,15 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.lowQuality) foregroundSprites.add(new BGSprite('tank3', 1300, 1200, 3.5, 2.5, ['fg']));
 
 			case 'kill me':
-				var bg:BGSprite = new BGSprite('BG', -600, -200, 0.9, 0.9);
+				var bg:BGSprite = new BGSprite('BG', -750, -200, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(3800));
+				bg.updateHitbox();
 				add(bg);
 				var bg2:BGSprite = new BGSprite('cringe_table_eww', -559, 957, 0.9, 0.9);
 				add(bg2);
 
 		
-				editbleSprite = bg2;
+				editbleSprite = bg;
 				editable = false;
 		}
 
@@ -3988,7 +3990,7 @@ class PlayState extends MusicBeatState
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					MusicBeatState.switchState(new MainMenuState());
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
@@ -4051,7 +4053,7 @@ class PlayState extends MusicBeatState
 				if(FlxTransitionableState.skipNextTransIn) {
 					CustomFadeTransition.nextCamera = null;
 				}
-				MusicBeatState.switchState(new FreeplayState());
+				MusicBeatState.switchState(new MainMenuState());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
 				changedDifficulty = false;
 			}
