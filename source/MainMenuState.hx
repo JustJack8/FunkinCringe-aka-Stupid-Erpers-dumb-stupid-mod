@@ -14,6 +14,7 @@ import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
 import flixel.math.FlxMath;
 import flixel.tweens.FlxEase;
+import flixel.util.FlxTimer;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import lime.app.Application;
@@ -34,11 +35,7 @@ class MainMenuState extends MusicBeatState
 	
 	var optionShit:Array<String> = [
 		'story_mode',
-		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -236,7 +233,26 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										MusicBeatState.switchState(new StoryMenuState());
+										// Nevermind that's stupid lmao
+										PlayState.storyPlaylist = [
+											"unfiltered",
+										];		
+										PlayState.isStoryMode = true;
+							
+										var diffic = '-hard';
+										if(diffic == null) diffic = '-hard';
+							
+										PlayState.storyDifficulty = 2;
+							
+										PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
+										PlayState.storyWeek = 0;
+										PlayState.campaignScore = 0;
+										PlayState.campaignMisses = 0;
+										new FlxTimer().start(1, function(tmr:FlxTimer)
+										{
+											LoadingState.loadAndSwitchState(new PlayState(), true);
+											FreeplayState.destroyFreeplayVocals();
+										});
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									#if MODS_ALLOWED

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Shinji.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ShinjiDown0000" x="0" y="0" width="740" height="1480" frameX="-7" frameY="-19" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0001" x="0" y="0" width="740" height="1480" frameX="-7" frameY="-19" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0002" x="740" y="0" width="740" height="1495" frameX="-1" frameY="-4" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0003" x="740" y="0" width="740" height="1495" frameX="-1" frameY="-4" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0004" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0005" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0006" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0007" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0008" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0009" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0010" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0011" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0012" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiDown0013" x="1480" y="0" width="730" height="1499" frameX="-2" frameY="0" frameWidth="747" frameHeight="1499"/>
+	<SubTexture name="ShinjiIdle0000" x="2210" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0001" x="2210" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0002" x="2826" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0003" x="2826" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0004" x="3442" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0005" x="3442" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0006" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0007" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0008" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0009" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0010" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0011" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0012" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiIdle0013" x="4058" y="0" width="616" height="1470"/>
+	<SubTexture name="ShinjiLeft0000" x="4674" y="0" width="823" height="1528"/>
+	<SubTexture name="ShinjiLeft0001" x="4674" y="0" width="823" height="1528"/>
+	<SubTexture name="ShinjiLeft0002" x="5497" y="0" width="813" height="1520" frameX="-7" frameY="-8" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0003" x="5497" y="0" width="813" height="1520" frameX="-7" frameY="-8" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0004" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0005" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0006" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0007" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0008" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0009" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0010" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0011" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0012" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiLeft0013" x="6310" y="0" width="796" height="1515" frameX="-21" frameY="-13" frameWidth="823" frameHeight="1528"/>
+	<SubTexture name="ShinjiRight0000" x="7106" y="0" width="738" height="1468" frameX="0" frameY="-6" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0001" x="7106" y="0" width="738" height="1468" frameX="0" frameY="-6" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0002" x="0" y="1528" width="718" height="1474" frameX="-8" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0003" x="0" y="1528" width="718" height="1474" frameX="-8" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0004" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0005" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0006" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0007" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0008" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0009" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0010" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0011" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0012" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiRight0013" x="718" y="1528" width="710" height="1474" frameX="-15" frameY="0" frameWidth="738" frameHeight="1474"/>
+	<SubTexture name="ShinjiUp0000" x="1428" y="1528" width="620" height="1482"/>
+	<SubTexture name="ShinjiUp0001" x="1428" y="1528" width="620" height="1482"/>
+	<SubTexture name="ShinjiUp0002" x="2048" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0003" x="2048" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0004" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0005" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0006" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0007" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0008" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0009" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0010" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0011" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0012" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+	<SubTexture name="ShinjiUp0013" x="2661" y="1528" width="613" height="1482" frameX="0" frameY="0" frameWidth="620" frameHeight="1482"/>
+</TextureAtlas>
