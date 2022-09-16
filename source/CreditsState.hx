@@ -88,6 +88,7 @@ class CreditsState extends MusicBeatState
 			['3DIT',		'unfun',		'Animator',								'https://twitter.com/Unfun___',	'2A2B3E'],
 			['Eltrodis',		'Eltrodis',		'Chromatic scales maker',								'https://gamebanana.com/members/1893032',	'221B33'], 
 			['Haze',		'haze',		'Artist (AKA carry of the mod!)',								'https://gamebanana.com/members/2134347',	'963DE4'], 
+			['Haze',		'haze',		'Artist (AKA carry of the mod!)',								'https://gamebanana.com/members/2134347',	'963DE4'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
