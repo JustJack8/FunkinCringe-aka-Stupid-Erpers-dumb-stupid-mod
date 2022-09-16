@@ -81,10 +81,13 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Funkin Cringe Team'], //logan
-			['WiiCube',		'gamecube',		'Director, and charter',								'https://twitter.com/WiiCube64',	'171743'],
-			['JustJack',		'JustJack',		'Progammer',								'https://twitter.com/Just_Jack6',	'FFFFFF'], 
-			['AllLogan',		'logan',		'Animator, and cool idfk',								'https://twitter.com/AllLogan_',	'8C3ACB'], 
+			['Funkin Cringe Team'], 
+			['WiiCube',		'gamecube',		'Director, Charter, and Chromatic Scales maker',								'https://twitter.com/WiiCube64',	'171743'],
+			['JustJack',		'JustJack',		'Main Programmer',								'https://twitter.com/Just_Jack6',	'FFFFFF'], 
+			['Cheez',		'Cheez',		'Animator',								'https://twitter.com/CheezSomething',	'9F9EAA'], 
+			['3DIT',		'unfun',		'Animator',								'https://twitter.com/Unfun___',	'2A2B3E'],
+			['Eltrodis',		'Eltrodis',		'Chromatic scales maker',								'https://gamebanana.com/members/1893032',	'221B33'], 
+			['Haze',		'haze',		'Artist (AKA carry of the mod!)',								'https://gamebanana.com/members/2134347',	'963DE4'], 
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
